@@ -1,0 +1,135 @@
+html{
+	background: #3B3B3B url('classy_fabric.png') left top repeat;
+	color: white;
+}
+
+body{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 100%;
+}
+
+a{
+	color: maroon;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+
+legend{
+	padding: 10px;
+}
+
+#page{
+	color: black;
+	background: #F8F8F8 url('debut_light.png') left top repeat;
+	margin: 20px auto 0px auto;
+	width: 1000px;
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+header{
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+	overflow: auto;
+}
+header #logo{
+	float: left;
+	font-size: 250%;
+	font-weight: bold;
+	color: #D8D8D8;
+	font-family: Georgia, serif;
+}
+header #menu{
+	float: right;
+	font-size: 130%;
+}
+header a{
+	margin-left: 20px;
+}
+
+div#pagecontent{
+	padding: 20px;
+}
+
+fieldset.source{
+	border: 1px solid silver;
+	border-radius: 5px;
+	padding: 10px;
+	background: white;
+	font-family: "Courier New", Courier, monospace;
+}
+
+
+
+footer{
+	margin: 2px auto 20px auto;
+	width: 1000px;
+	padding: 0px;
+	color: white;
+	font-size: 80%;
+}
+footer a{
+	color: silver;
+}
+footer a:hover{
+	color: red;
+}
+footer #debug{
+	background: #F8F8F8 url('grey_wash_wall.png') left top repeat;
+	color: white;
+	margin: 20px auto;	
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 10px;
+}
+
+
+
+
+
+
+/**
+* User feedback message wrappers.
+*/
+.error, .alert, .warning, .notice, .success, .info {
+padding: 0.8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error, .alert { background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+.notice, .warning { background: #fff6bf; color: #514721; border-color: #ffd324; }
+.success { background: #e6efc2; color: #264409; border-color: #c6d880; }
+.info { background: #d5edf8; color: #205791; border-color: #92cae4; }
+.error a, .alert a { color: #8a1f11; }
+.notice a, .warning a { color: #514721; }
+.success a { color: #264409; }
+.info a { color: #205791; }
+
+
+
+/**
+* For the Source application
+**/
+.filelist{
+	padding-left: 0px;
+}
+.filelist li{
+	list-style-type: none;
+	line-height: 200%;
+	padding-left: 40px;
+}
+.filelist li.dir{
+	background: url('folder.png') no-repeat left center;
+}
+ul.filelist li.file{
+	background: url('text-x-generic.png') no-repeat left center;
+}
+
+fieldset.filecontents{
+	overflow: auto;
+}
+fieldset.filecontents div{
+	overflow: auto;
+	width: 900px;
+}
